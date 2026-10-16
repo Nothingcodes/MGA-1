@@ -1,18 +1,18 @@
 {
   "name": "mga-1",
   "version": "1.0.0",
-  "description": "Medical General Architecture for Reliable Medical LLMs (Research Prototype v1.0)",
+  "description": "MGA-1 v1.0 — Medical General Architecture for Reliable Medical LLMs (Research Prototype)",
   "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "node index.js",
+    "dev": "node --watch index.js",
     "check": "node --check index.js"
   },
   "dependencies": {
     "@google/genai": "2.24.0"
   },
   "engines": {
-    "node": ">=20.0.0"
+    "node": ">=18.0.0"
   }
 }
